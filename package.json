@@ -7,3 +7,4 @@
   "dependencies": {},
   "devDependencies": {}
 }
+{"scripts":{"dev":"python3 -m http.server 5173","build":"node scripts/check.mjs"},"dependencies":{},"devDependencies":{}}
