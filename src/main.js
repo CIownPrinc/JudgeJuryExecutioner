@@ -1,3 +1,8 @@
+import { boot } from './app.js';
+
+if (typeof document !== 'undefined') {
+  boot();
+}
 const defendants=[['Mara Vale','night registrar','she'],['Jonas Bell','dock clerk','he'],['Eli Ward','apothecary','they'],['Nadia Cross','rail inspector','she'],['Silas Pike','debt collector','he'],['Iona Flint','printer','she']];
 const charges=[['arson','a locked tax archive','the rain-soaked civic quarter'],['embezzlement','relief-fund coin ledgers','the Ministry Annex'],['sabotage','a courthouse elevator brake','Old Hall Station'],['poisoning','a magistrate’s supper wine','The Gilded Spoon'],['smuggling','sealed medical rations','Pier Seventeen']];
 const labels={testimony:['Witness Statement','Guard Testimony','Neighbor Deposition'],forensics:['Lab Note','Residue Report','Clockwork Analysis'],paperwork:['Stamped Ledger','Permit Trail','Transfer Record'],alibi:['Alibi Claim','Timeline Sketch','Transit Stub'],character:['Character Witness','Prior Conduct','Reputation Note']};
